@@ -11,7 +11,7 @@ DOWNLOAD_CANCEL_BTN: "🚦 Cancel Downloading"
 GC_HELP_BTN: "📒 Commands"
 
 START_HELP_BTN: "Help & Commands"
-SOURCE_BTN: "Source"
+SOURCE_BTN: "DEV"
 UPDATES_BTN: "Updates"
 SUPPORT_BTN: "Support"
 
@@ -123,11 +123,12 @@ cb_already_playing: "ℹ️ Track is already playing."
 cb_resume_failed: "❌ Failed to resume playback."
 cb_resume_success: "▶️ Resumed at {position}."
 cb_resume_message: |
-  <b>🎵 Now Playing:</b>
+  <b>🎵 Now Playing</b>
 
-  <b>Track:</b> <a href="{url}">{title}</a>
-  <b>Duration:</b> {duration}
-  <b>Resumed by:</b> {user}
+  <b>𝗧ɪᴛʟᴇ: ➪</b> <a href="{url}">{title}</a>
+  <b>𝗧ɪᴍᴇ: ➪</b> {duration}
+  <b>𝗥ᴇǫᴜᴇsᴛᴇʀ: ➪</b> {user}
+  <b>DEV ➪ <a href="https://t.me/HANTHAR999"> HAN THAR </a></b>
 
 # Replay callback
 cb_replaying: "🔁 <b>Replaying current track...</b>"
@@ -472,9 +473,9 @@ play_download_failed: |
 play_added_to_queue_single: |
   <b>Added to Queue:</b> #{index}
 
-  <b>Track:</b> <a href="{url}">{title}</a>
-  <b>Duration:</b> {duration}
-  <b>Requested by:</b> {by}
+  <b>𝗧ɪᴛʟᴇ: ➪ </b> <a href="{url}">{title}</a>
+  <b>𝗧ɪᴍᴇ: ➪</b> {duration}
+  <b>𝗥ᴇǫᴜᴇsᴛᴇʀ: ➪</b> {by}
 
 channel_play_depreciated: "⚠️ This handler is deprecated. Use <code><a>/cplay --set channel_id </code></a> to set your channel for playback."
 play_multiple_tracks_too_long_header: "<b>⚠️ {count} tracks were skipped (max duration {limit_mins} mins):</b>"
@@ -888,7 +889,7 @@ spt_result: |
   Download: <code>{dl_mbps} Mbps</code>
   Upload: <code>{ul_mbps} Mbps</code>
 
-start_private: "Hello {user}, My name is {bot}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, JioSaavn, Soundcloud etc.\n\nFeel free to add me to your groups."
+start_private: "Hello {user}, My name is {bot}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, JioSaavn, Soundcloud etc.\nFeel free to add me to your groups.\n\n🤍အရာအားလုံးအကောင်းလိုပဲ မြင်တယ်🤍"
 
 start_group: "<b>💫 I’m here!</b> Try a command… if you think you can handle me 😉"
 
@@ -898,11 +899,11 @@ stream_downloading_next: "Hold On !!\n\n📥 Downloading your next track..."
 stream_download_fail: "❌ Failed to download.\nError: <code>{error}</code>"
 stream_play_fail: "❌ Failed to play the song."
 stream_now_playing: |
-  <b>🎵 Now Playing:</b>
+  <b>🎵 Now Playing 🎵</b>
 
-  <b>Track:</b> <a href="{url}">{title}</a>
-  <b>Duration:</b> {duration}
-  <b>Requested by:</b> {by}
+  <b>𝗧ɪᴛʟᴇ: ➪ </b> <a href="{url}">{title}</a>
+  <b>𝗧ɪᴍᴇ: ➪</b> {duration}
+  <b>𝗥ᴇǫᴜᴇsᴛᴇʀ: ➪</b> {by}
 
 
 sudo_join_owner: "👑 {user} — owner of {bot} — just entered the chat."
@@ -935,10 +936,8 @@ help_owner: |
   <b>Commands:</b>
   <b>/addsudo</b> - Add a new user to bot's sudolist
   <b>/delsudo</b> - Remove a user from bot's sudolist
-  <b>/eval</b> - Execute Go code snippets
   <b>/maintenance</b> — Manage the bot’s maintenance mode
   <b>/restart</b> — Restart the bot
-  <b>/sh</b> - Run shell commands
 
 help_sudo: |
   ⚡ <b>Sudoer Commands</b>
@@ -994,4 +993,4 @@ help_public: |
   <b>/reload</b> - Reload admin or cache data
   <b>/json</b> - Show message JSON structure
   <b>/sudolist</b> - View sudo user list
-  <b>/privacy<b> - open privacy policy
+  
