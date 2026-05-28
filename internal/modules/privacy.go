@@ -44,7 +44,7 @@ Your privacy is important to us. This bot is designed with privacy in mind.
 • All data is used strictly to provide and improve the bot's music streaming features.</blockquote>
 
 <b>✨ Our Commitment</b>
-This bot is an <a href="https://github.com/tusar404/ArcMusic">open-source project</a> dedicated to providing a high-quality streaming experience while respecting user privacy.
+This bot is an <a href="https://t.me/myanmarbot_music">open-source project</a> dedicated to providing a high-quality streaming experience while respecting user privacy. I Am HAN THAR
 
 <i>If you have any questions, feel free to join our <a href="%s">Support Chat</a>.</i>`, config.SupportChat)
 
