@@ -88,7 +88,7 @@ func initBot() error {
 		return fmt.Errorf("failed to fetch bot identity: %w", err)
 	}
 
-	gologging.InfoF("Bot started as @%s", user.Username)
+	gologging.InfoF("Bot Start as @%s", user.Username)
 
 	Bot = client
 	return nil
@@ -110,12 +110,12 @@ func initAssistants() error {
 		if config.LoggerID != 0 {
 			_, _ = assistant.Client.SendMessage(
 				config.LoggerID,
-				fmt.Sprintf("Assistant %d Started", i+1),
+				fmt.Sprintf("Assistant %d I AM Ready Now", i+1),
 			)
 		}
 
 		assistant.Client.SendMessage(Bot.Me().Username, "/start")
-		assistant.Client.JoinChannel("TheTeamVivek")
+		assistant.Client.JoinChannel("myanmarbot_music")
 
 		if assistant.Self.Username != "" {
 			gologging.InfoF(
